@@ -6,12 +6,12 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-tensorflow = "*"
 numpy = "*"
 flask = "*"
 pillow = "*"
 imageio = "*"
 gunicorn = "*"
+tensorflow = "==2.0.0"
 
 [requires]
 python_version = "3.6"
